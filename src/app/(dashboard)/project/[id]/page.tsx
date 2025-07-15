@@ -13,7 +13,7 @@ interface projectItemType {
   status: string;
   complationStatus: number;
 }
-export const ProjectDetail = ({ params }: Props) => {
+ const ProjectDetail = ({ params }: Props) => {
   const { id } = use(params);
   const project = useProject();
   console.log("id", id);
