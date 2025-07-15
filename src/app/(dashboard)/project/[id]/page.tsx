@@ -33,6 +33,7 @@ interface projectItemType {
         Completion: {getProject?.complationStatus ?? "N/A"}%
       </div>
     </div>
+    
   );
 };
 export default ProjectDetail;
