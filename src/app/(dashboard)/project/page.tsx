@@ -6,7 +6,7 @@ import { AppDispatch } from "@/store/store";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 
-export const Project = () => {
+ const Project = () => {
   const dispatch = useDispatch<AppDispatch>();
 
   useEffect(() => {
